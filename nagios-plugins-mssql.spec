@@ -2,8 +2,8 @@
 
 Summary:	Nagios plugins to check the status of MS-SQL Servers
 Name:		nagios-plugins-mssql
-Version:	1.5.9.2
-Release:	7%{?dist}
+Version:	1.5.9.3
+Release:	1%{?dist}
 License:	GPLv2+
 Group:		Applications/System
 URL:		http://labs.consol.de/lang/en/nagios/check_mssql_health/
@@ -41,6 +41,9 @@ rm -rf %{buildroot}
 %{_libdir}/nagios/plugins/check_mssql_health
 
 %changelog
+* Mon Mar 19 2012 Pall Sigurdsson <palli@opensource.is> 1.5.9.3-1
+- new package built with tito
+
 * Mon Mar 19 2012 Pall Sigurdsson <palli@opensource.is> 1.5.9.2-7
 - new package built with tito
 
